@@ -1,0 +1,95 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: black;
+    color: white;
+}
+.container
+{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    gap: 10px;
+}
+.container > div
+{
+    width: 520px;
+    height: 250px;
+    border: 2px solid rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: larger;
+    display: flex;
+    align-items: flex-end;
+}
+.container > div:hover
+{
+    opacity: 0.8;
+    transform: scale(0.98);
+}
+.container p a
+{
+    text-decoration: none;
+    color: rgb(26, 15, 11);
+}
+.container p a:hover
+{
+  text-decoration:underline;
+  color:deepskyblue
+}
+.blog1
+{
+background-repeat: no-repeat;
+background-size: cover;
+background-image: url(https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1sxPDq.img?w=768&h=459&m=6);
+}
+.blog2
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://www.financialexpress.com/wp-content/uploads/2024/10/Chennai-Rains-1.png?w=1024);
+}
+.blog3
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://th.bing.com/th/id/OIP.flFOb2N_GPMVcLKDVsptBQHaE8?w=243&h=180&c=7&r=0&o=5&pid=1.7);
+}
+.blog4
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1svsUu.img?w=768&h=432&m=6&x=788&y=218&s=226&d=226);
+}
+.blog5
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1sxOVl.img?w=768&h=690&m=6);
+}
+.blog6
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1sv6pX.img?w=768&h=432&m=6&x=244&y=373&s=53&d=53);
+}
+.blog7
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1sy9SY.img?w=549&h=309&m=6);
+}
+.blog8
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1syASO.img?w=768&h=432&m=6&x=449&y=173&s=38&d=38);
+}
+.blog9
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1sxcCG.img?w=768&h=576&m=6);
+}
